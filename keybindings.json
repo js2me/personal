@@ -1,0 +1,138 @@
+[
+  {
+      "key": "alt+4",
+      "command": "-workbench.action.openEditorAtIndex4"
+  },
+  {
+      "key": "alt+4",
+      "command": "workbench.action.terminal.toggleTerminal",
+      "when": "terminal.active && terminalFocus"
+  },
+  {
+      "key": "alt+f12",
+      "command": "-workbench.action.terminal.toggleTerminal",
+      "when": "terminal.active && terminalFocus"
+  },
+  {
+      "key": "alt+4",
+      "command": "workbench.action.terminal.toggleTerminal",
+      "when": "terminal.active"
+  },
+  {
+      "key": "ctrl+`",
+      "command": "-workbench.action.terminal.toggleTerminal",
+      "when": "terminal.active"
+  },
+  {
+      "key": "shift+alt+s",
+      "command": "eslint.executeAutofix"
+  },
+  {
+      "key": "ctrl+shift+s",
+      "command": "workbench.action.files.saveAll"
+  },
+  {
+      "key": "ctrl+k s",
+      "command": "-workbench.action.files.saveAll"
+  },
+  {
+      "key": "alt+x",
+      "command": "extension.pxToremAndRemToPx"
+  },
+  {
+      "key": "alt+z",
+      "command": "-extension.pxToremAndRemToPx"
+  },
+  {
+      "key": "alt+`",
+      "command": "workbench.action.toggleMaximizedPanel"
+  },
+  {
+      "key": "shift+alt+`",
+      "command": "workbench.action.terminal.kill"
+  },
+  {
+      "key": "ctrl+r ctrl+r",
+      "command": "npm-script.run"
+  },
+  {
+      "key": "ctrl+r shift+r",
+      "command": "-npm-script.run"
+  },
+  {
+      "key": "ctrl+r ctrl+i",
+      "command": "npm-script.install"
+  },
+  {
+      "key": "ctrl+alt+f12",
+      "command": "editor.action.goToTypeDefinition"
+  },
+  {
+      "key": "ctrl+shift+'",
+      "command": "outline.focus"
+  },
+  {
+      "key": "ctrl+clear",
+      "command": "editor.action.showContextMenu",
+      "when": "textInputFocus"
+  },
+  {
+      "key": "shift+f10",
+      "command": "-editor.action.showContextMenu",
+      "when": "textInputFocus"
+  },
+  {
+      "key": "f20",
+      "command": "explorer.newFile",
+      "when": "filesExplorerFocus"
+  },
+  {
+      "key": "f21",
+      "command": "explorer.newFolder",
+      "when": "filesExplorerFocus"
+  },
+  {
+      "key": "ctrl+alt+k",
+      "command": "-git.commitAll",
+      "when": "!inDebugMode && !operationInProgress && !terminalFocus"
+  },
+  {
+      "key": "ctrl+alt+k",
+      "command": "workbench.view.scm",
+      "when": "workbench.scm.active && activeViewlet != 'workbench.view.scm'"
+  },
+  {
+      "key": "f24",
+      "command": "workbench.action.showCommands"
+  },
+  {
+      "key": "ctrl+shift+a",
+      "command": "-workbench.action.showCommands"
+},
+{
+    "key": "ctrl+shift+left ctrl+shift+left",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "explorerViewletFocus"
+},
+{
+    "key": "alt+1",
+    "command": "-workbench.action.toggleSidebarVisibility",
+    "when": "explorerViewletFocus"
+},
+{
+    "key": "shift+r shift",
+    "command": "workbench.action.openEditorAtIndex1"
+},
+{
+    "key": "alt+1",
+    "command": "-workbench.action.openEditorAtIndex1"
+},
+{
+    "key": "shift+f20",
+    "command": "workbench.action.openRecent"
+},
+{
+    "key": "ctrl+r",
+    "command": "-workbench.action.openRecent"
+}
+]
